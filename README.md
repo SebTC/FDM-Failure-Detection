@@ -55,7 +55,7 @@ pip install -r requirements.txt
 
 ### 3. Download the model
 
-Download the TFLite model from [Google Drive](YOUR_DRIVE_LINK) and place it in the `models/` folder:
+Download the TFLite model from [Google Drive]((https://drive.google.com/file/d/1HQSlUMMqAXdt0wYJzb0evgwyh2-q6hN4/view?usp=sharing)) and place it in the `models/` folder:
 
 ```
 models/
