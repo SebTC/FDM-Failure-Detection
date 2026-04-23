@@ -1,0 +1,11 @@
+# Core dependencies
+numpy>=1.21.0
+Pillow>=9.0.0
+requests>=2.28.0
+
+# TensorFlow Lite Runtime (for Raspberry Pi)
+# Install separately on Raspberry Pi:
+# pip install tflite-runtime
+
+# Twilio (for WhatsApp notifications)
+twilio>=8.0.0
