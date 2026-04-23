@@ -1,0 +1,4 @@
+# Model files are not included in the repository due to size.
+# Download the TFLite model from Google Drive and place it here.
+#
+# Expected file: best_float32.tflite (~6MB)
