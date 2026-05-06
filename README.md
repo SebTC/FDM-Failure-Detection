@@ -140,14 +140,6 @@ The model was trained using:
 
 See [Roboflow](https://roboflow.com) for dataset labeling and augmentation.
 
-## Cost Comparison
-
-| Item | This System | Obico Pro (3 years) |
-|------|-------------|---------------------|
-| Hardware | $115 | $125 |
-| Subscriptions | $0 | $144 |
-| **Total** | **$115** | **$269** |
-
 ## Limitations
 
 - Reduced sensitivity for layer shifts < 5mm
