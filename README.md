@@ -4,6 +4,12 @@ Real-time failure detection for FDM 3D printers using computer vision and edge A
 
 ![System Architecture](docs/architecture.png)
 
+## Demo
+
+[![Watch the demo](https://img.youtube.com/vi/sqXqNPIAeko/maxresdefault.jpg)](https://youtu.be/sqXqNPIAeko)
+
+*Click to watch the system detecting a print failure in real-time*
+
 ## Features
 
 - **Real-time detection** — YOLOv8n model running on Raspberry Pi 4
