@@ -2,7 +2,7 @@
 
 Real-time failure detection for FDM 3D printers using computer vision and edge AI. Detects spaghetti, layer shifting, and warping defects, automatically pauses the printer, and sends WhatsApp alerts.
 
-![System Architecture](docs/architecture.png)
+![System Architecture](docs/fig_architecture.png)
 
 ## Demo
 
