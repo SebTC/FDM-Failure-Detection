@@ -1,13 +1,5 @@
 # Training Results & Analysis
 
-## Demo
-
-[![Watch the demo](https://img.youtube.com/vi/sqXqNPIAeko/maxresdefault.jpg)](https://youtu.be/sqXqNPIAeko)
-
-*Click to watch the system detecting a print failure in real-time*
-
----
-
 ## Model Performance
 
 | Metric | Training (mAP50) | Real-World Tests |
