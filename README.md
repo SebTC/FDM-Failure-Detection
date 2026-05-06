@@ -12,7 +12,7 @@ Real-time failure detection for FDM 3D printers using computer vision and edge A
 - **Automatic pause** via OctoPrint API (M0 G-code)
 - **Instant alerts** via WhatsApp (Twilio API)
 - **Fully local** — no cloud dependencies, no subscriptions
-- **Low cost** — ~$115 USD total hardware cost
+- **Low cost** — ~$78.25 USD total hardware cost
 
 ## Detection Classes
 
