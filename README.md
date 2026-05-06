@@ -1,6 +1,6 @@
 # FDM 3D Print Failure Detection System
 
-Real-time failure detection for FDM 3D printers using computer vision and edge AI. Detects spaghetti, layer shifting, and warping defects, automatically pauses the printer, and sends WhatsApp alerts.
+Real-time failure detection for FDM 3D printers using computer vision and edge AI. Detects spaghetti and layer shifting defects, automatically pauses the printer, and sends WhatsApp alerts.
 
 ![System Architecture](docs/fig_architecture.PNG)
 
