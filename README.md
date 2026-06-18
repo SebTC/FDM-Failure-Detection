@@ -49,7 +49,7 @@ Real-time failure detection for FDM 3D printers using computer vision and edge A
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/fdm-failure-detection.git
+git clone https://github.com/SebTC/fdm-failure-detection.git
 cd fdm-failure-detection
 ```
 
