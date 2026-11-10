@@ -1,0 +1,10 @@
+# Your local settings (API keys, Twilio credentials)
+config.py
+
+# Model and runtime output
+models/*.tflite
+detections/
+
+__pycache__/
+*.pyc
+.DS_Store

@@ -10,6 +10,10 @@ Real-time failure detection for FDM 3D printers using computer vision and edge A
 
 *Click to watch the system detecting a print failure in real-time*
 
+![Detector pausing the print and sending a WhatsApp alert](images/Detection.png)
+
+*Left: the detector flags spaghetti and pauses the print. Right: the camera view and the WhatsApp alert that follows.*
+
 ## Features
 
 - **Real-time detection** — YOLOv8n model running on Raspberry Pi 4
@@ -28,6 +32,12 @@ Real-time failure detection for FDM 3D printers using computer vision and edge A
 | Layer Shift | 94.1% | 95.6% | 93.8% |
 | Warping | 83.4% | 87.9% | 91.6% |
 | **Overall** | **87.9%** | **88.7%** | **90.8%** |
+
+![A spaghetti failure next to a successful print](images/fig_defects.PNG)
+
+*A spaghetti failure (left) next to a successful print (right).*
+
+Real-world test results are in [docs/RESULTS.md](docs/RESULTS.md).
 
 ## Hardware Requirements
 
@@ -49,8 +59,8 @@ Real-time failure detection for FDM 3D printers using computer vision and edge A
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/SebTC/fdm-failure-detection.git
-cd fdm-failure-detection
+git clone https://github.com/SebTC/FDM-Failure-Detection.git
+cd FDM-Failure-Detection
 ```
 
 ### 2. Install dependencies
@@ -61,7 +71,7 @@ pip install -r requirements.txt
 
 ### 3. Download the model
 
-Download the TFLite model from [Google Drive]((https://drive.google.com/file/d/1HQSlUMMqAXdt0wYJzb0evgwyh2-q6hN4/view?usp=sharing)) and place it in the `models/` folder:
+Download the TFLite model from [Google Drive](https://drive.google.com/file/d/1HQSlUMMqAXdt0wYJzb0evgwyh2-q6hN4/view?usp=sharing) and place it in the `models/` folder:
 
 ```
 models/
@@ -103,10 +113,12 @@ python detector.py
 ## Camera Setup
 
 Position the camera at approximately:
-- **Angle:** 40° from the print bed center
+- **Angle:** 45° from the print bed center
 - **Distance:** 25cm horizontal distance
 - **Height:** 6cm above bed level
 - **Orientation:** Landscape
+
+![Camera mounted beside the print bed](images/fig_camera.png)
 
 ## How It Works
 
@@ -121,7 +133,7 @@ Position the camera at approximately:
 ## Project Structure
 
 ```
-fdm-failure-detection/
+FDM-Failure-Detection/
 ├── README.md
 ├── LICENSE
 ├── .gitignore
@@ -131,7 +143,9 @@ fdm-failure-detection/
 ├── models/
 │   └── model.tflite     # YOLOv8n TFLite model (download separately)
 ├── docs/
-│   └── architecture.png
+│   ├── fig_architecture.PNG
+│   └── RESULTS.md       # Real-world test results
+├── images/              # Figures used in this README
 └── detections/          # Saved detection images (created at runtime)
 ```
 
@@ -169,7 +183,7 @@ MIT License — see [LICENSE](LICENSE) for details.
 
 **Sebastián Torres**  
 Mechatronics Engineering — UNITEC Honduras  
-[LinkedIn](https://www.linkedin.com/in/sebastiantc) · [Email](mailto:s.torrescarrasco@gmail.com)
+[Portfolio](https://sebtc.github.io) · [LinkedIn](https://www.linkedin.com/in/sebastiantc) · [Email](mailto:s.torrescarrasco@gmail.com)
 
 ## Acknowledgments
 
